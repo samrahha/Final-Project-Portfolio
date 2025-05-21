@@ -1,0 +1,275 @@
+
+
+.header{  
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+
+}
+h1{
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #4e7cb2;
+    font-size: 105px;
+    text-align: center;
+    margin-top: 300px; 
+}
+
+h2{
+    font-family: "redonda", sans-serif;
+    font-weight: 900;
+    font-size: 150px;
+    font-style: normal;
+    margin-top: -100px; 
+    color: #203f9a;
+    text-align: center; 
+    margin-bottom: 350px; 
+}
+
+
+body{
+    background-color: #efe8e0;
+}
+
+
+h3{
+    font-family: "redonda", sans-serif;
+font-weight: 900;
+font-size: 100px;
+font-style: normal;
+color: #94c2da;
+margin-bottom: -5px; 
+margin-left: 80px;
+}
+
+p{font-family: "elza-text", sans-serif;
+    font-weight: 500;
+    font-style: normal;;
+    font-size: 20px;
+    color: #b53b78;
+    margin-left: 80px;
+}
+
+h4{
+    font-family: "redonda", sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    font-style: normal;
+    color: #e84797;
+    margin-top: 600px;
+    margin-bottom: -5px;
+    text-align: center;
+    margin-bottom: 40px; 
+}
+
+
+h5{
+    font-family: "redonda", sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    font-style: normal;
+    color: #4e7cb2;
+    margin-top: 600px;
+    margin-bottom: -5px;
+    text-align: right;
+    margin-bottom: 40px;
+    margin-right: 100px;
+}
+
+h6, h10{
+
+    font-family: "redonda", sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    font-style: normal;
+    color: #94c2da;
+    margin-right: 0px;
+    margin-top: 600px;
+    margin-bottom: -5px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.p2{
+    font-family: "elza-text", sans-serif;
+    font-weight: 500;
+    font-style: normal;;
+    font-size: 20px;
+    text-align: center;
+    color: #b53b78;
+    margin-left: -15px;
+
+}
+
+div img{
+    cursor: pointer;
+    transition: 400ms
+}
+
+div img:hover{
+filter: grayscale(1);
+transform: scale(1.03);
+} 
+
+h7{
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #b53b78;
+    font-size: 30px;
+    margin-left: 115px;
+}
+
+
+.skills-list {
+    font-family: "elza-text", sans-serif;
+    font-weight: 500;
+    font-style: normal;;
+    font-size: 17px;
+    color: #4e7cb2;
+    margin-left: 180px;
+}
+
+.education-list {
+    font-family: "elza-text", sans-serif;
+    font-weight: 500;
+    font-style: normal;;
+    font-size: 17px;
+    color: #4e7cb2;
+    margin-top: -20px;
+    margin-left: 65px;
+}
+
+.education{
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #b53b78;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.softwares-list{
+    font-family: "elza-text", sans-serif;
+    font-weight: 500;
+    font-style: normal;;
+    font-size: 17px;
+    color: #4e7cb2;
+    margin-left: 60px;
+
+}
+
+.softwares{
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #b53b78;
+    font-size: 30px;
+    margin-left: 120px;
+    padding-bottom: -200px;
+}
+
+
+.ed-desc{
+    font-family: "elza-text", sans-serif;
+    font-weight: 500;
+    font-style: normal;;
+    font-size: 12px;
+    color: #6093cd;
+    margin-left: 70px;
+    margin-top: -18px;
+}
+
+.ed{
+    font-family: "elza-text", sans-serif;
+    font-weight: 500;
+    font-style: normal;;
+    font-size: 18px;
+    color: #6093cd;
+    margin-left: 40px;
+    margin-top: -2px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #b53b78;
+    padding: 0px;
+    margin:0px;
+    overflow: hidden;
+    position: left;
+}
+
+
+.navbar{
+    font-family: "elza-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #b53b78;
+    overflow: hidden;
+}
+
+.navbar a{
+    color:#efe8e0;
+    display: block;
+    text-align: center;
+    padding: 8px;
+    margin: 10px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar a:hover{
+    background-color: #b45b88;
+}
+
+.navbar li{
+    float:left;
+}
+
+.navbar{
+    position: sticky; top: 0%;
+    overflow: hidden;
+
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat;
+    grid-gap:30px ;
+    margin-top: -50px;
+    margin-left: 300px;
+}
+
+.gallery img{
+    width: 60% ;
+}
+
+.container{
+    line-height: 6rem;
+    padding: 10rem ;
+    align-items: center;
+}
+
+
+h10{
+    font-family: "redonda", sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    font-style: normal;
+    color: #94c2da;
+    margin-top: 1800px;
+    margin-left: 350px;
+    margin-bottom: -5px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
